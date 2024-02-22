@@ -74,18 +74,15 @@
 ## About The Project
 
 
-TODO: write quick introduction to website
+This project is build as web server deployment practice task 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
- - AWS
- - GitHub Actions
- - Docker
+ - AWS EC2 and VPC
+ - Jenkins (with Github Webhooks)
  - Nginx
-
-TODO: write all used frameworks / libraries
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,12 +90,9 @@ TODO: write all used frameworks / libraries
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Feature 1
-- [x] Feature 2
-- [ ] Feature 3
-- [ ] Feature 4
-    - [ ] Feature 4-1
-    - [ ] Feature 4-2
+- [x] CI/CD using Jenkins and AWS EC2
+- [x] Production branch on port 80 and development on port 90
+
 
 See the [open issues](https://github.com/jamesfrienkins3452/FEP-13-website-project/issues) for a full list of proposed features (and known issues).
 
@@ -133,8 +127,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
-## Contact
+<!-- CONTACTS -->
+## Contacts
 
 Volodymyr Safiyanyk - Volodymyr.Safiianyk@lnu.edu.ua
 
@@ -151,7 +145,6 @@ Project Link: [https://github.com/jamesfrienkins3452/FEP-13-website-project](htt
 
 AWS examples - [https://github.com/open-guides/og-aws](https://github.com/open-guides/og-aws)
 
-TODO: write acknowledgment sources
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,6 +161,6 @@ TODO: write acknowledgment sources
 [issues-shield]: https://img.shields.io/github/issues/jamesfrienkins3452/FEP-13-website-project.svg?style=for-the-badge
 [issues-url]: https://github.com/jamesfrienkins3452/FEP-13-website-project/issues
 [license-shield]: https://img.shields.io/github/license/jamesfrienkins3452/FEP-13-website-project.svg?style=for-the-badge
-[license-url]: https://github.com/jamesfrienkins3452/FEP-13-website-project/blob/master/LICENSE.txt
+[license-url]: https://github.com/jamesfrienkins3452/FEP-13-website-project/blob/production/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [product-screenshot]: images/screenshot.png
